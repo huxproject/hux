@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+yapf = "*"
+coverage = "*"
+
+[packages]
+uvloop = ">=0.13.0rc1"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true

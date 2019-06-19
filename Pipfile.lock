@@ -1,0 +1,43 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "be1993ab89771f2d94464d3dfcb97d3f802c011d899aabbc7da7a5db28ed7e4b"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.7"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "uvloop": {
+            "hashes": [
+                "sha256:3674b1b2a3c91df385a335e41e31048a466574883b6a0a3ac1496509e8a0acd8",
+                "sha256:52a227559e2284982e5f10b62f0498a191924ab53e27fdba6b243459b43ffae5",
+                "sha256:6104f8078c3a68163d3cfc8fadc7881b2e58a9c3a45e09b9487b45bd8678510c",
+                "sha256:681d2ab0c266498e7fc36df3e07001602cd4526ca2158c7a4532cf9eddaef583",
+                "sha256:8108769060e20760503be305c805ab435aa404822475f64b064d1e1df9061e74",
+                "sha256:99904cc445d510295094be6dbb8d1cbad6bc729f58643bf568fd617214afd504",
+                "sha256:ec4ecf0d2803dc3fa58d3efc05de5d50ab9a39b5203d9bca4f059ec3be22de87"
+            ],
+            "index": "pypi",
+            "version": "==0.13.0rc1"
+        }
+    },
+    "develop": {
+        "yapf": {
+            "hashes": [
+                "sha256:34f6f80c446dcb2c44bd644c4037a2024b6645e293a4c9c4521983dd0bb247a1",
+                "sha256:613deba14233623ff3432d9d5032631b5f600be97b39f66932cbe67648bfa8ea"
+            ],
+            "index": "pypi",
+            "version": "==0.27.0"
+        }
+    }
+}
